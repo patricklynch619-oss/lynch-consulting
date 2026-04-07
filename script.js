@@ -1,5 +1,5 @@
 /* ============================================
-   LYNCH CONSULTING - Main JavaScript
+   HOME SERVICE CONSULTING - Main JavaScript
    ============================================ */
 
 // ---- Navbar scroll effect ----
