@@ -3,169 +3,120 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Book a free strategy call with Home Service Consulting. Tell us about your home service business and we will build a custom growth plan." />
+  <meta name="description" content="Book a free strategy call with Home Service Consulting. Veteran-owned consulting firm helping home service businesses grow with AI automation and systemization." />
+  <meta property="og:title" content="Contact | Home Service Consulting" />
+  <meta property="og:url" content="https://homeserviceconsulting.com/contact.html" />
   <title>Contact | Home Service Consulting</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
+<!-- NAVBAR -->
 <nav class="navbar">
   <div class="nav-inner">
-    <a href="index.html" class="nav-logo">Home Service<span> Consulting</span></a>
+    <a href="index.html" class="nav-logo">
+      <span class="logo-icon">&#127968;</span>
+      Home Service<span> Consulting</span>
+    </a>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="ai-automation.html">AI Automation</a></li>
       <li><a href="sales-as-a-service.html">Sales as a Service</a></li>
       <li><a href="systemization.html">Systemization</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
     </ul>
     <div class="nav-cta">
       <a href="contact.html" class="btn btn-primary">Book a Free Call</a>
-      <div class="hamburger"><span></span><span></span><span></span></div>
+      <div class="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </div>
     </div>
   </div>
 </nav>
+
+<!-- MOBILE NAV -->
 <div class="mobile-nav">
   <a href="index.html">Home</a>
   <a href="ai-automation.html">AI Automation</a>
   <a href="sales-as-a-service.html">Sales as a Service</a>
   <a href="systemization.html">Systemization</a>
   <a href="contact.html">Contact</a>
+  <a href="contact.html" class="btn btn-primary" style="text-align:center;margin-top:8px;">Book a Free Call</a>
 </div>
 
-<section class="page-hero">
+<!-- VETERAN BANNER -->
+<div class="veteran-banner">
+  <span class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+  &nbsp;&nbsp; VETERAN OWNED &amp; OPERATED &nbsp;&nbsp;
+  <span class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+</div>
+
+<!-- CONTACT HERO -->
+<section class="contact-hero">
   <div class="container">
-    <div class="page-hero-badge">&#128222; Book a Free Strategy Call</div>
-    <h1>Let&#8217;s Build Your <span class="highlight">Growth Plan</span></h1>
-    <p>Tell us about your business and we will put together a custom AI automation and sales strategy at absolutely no cost.</p>
+    <h1>Book a <span class="highlight">Free Strategy Call</span></h1>
+    <p>Tell us about your business and we will build a custom growth plan at no cost.</p>
   </div>
 </section>
 
-<section class="section">
+<!-- CONTACT FORM -->
+<section class="contact-form-section">
   <div class="container">
-    <div class="contact-layout">
-
-      <div class="contact-info">
-        <h2>What to <span class="highlight">Expect</span></h2>
-        <p>Our free strategy call is a genuine 30-minute working session — not a sales pitch. We will review your current process, identify the biggest growth levers, and walk you through exactly what we would build for your business.</p>
-
-        <div class="contact-detail">
-          <div class="contact-detail-icon">&#128336;</div>
-          <div class="contact-detail-text">
-            <h4>30-Minute Call</h4>
-            <p>We keep it focused and actionable. No fluff, no wasted time.</p>
+    <div class="inline-form">
+      <form data-web3form data-redirect="thank-you.html">
+        <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_KEY" />
+        <input type="hidden" name="subject" value="New Lead - homeserviceconsulting.com" />
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="john@yourcompany.com" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000" />
+          </div>
+          <div class="form-group">
+            <label for="business_type">Business Type</label>
+            <select id="business_type" name="business_type" required>
+              <option value="">Select your trade</option>
+              <option>HVAC</option>
+              <option>Plumbing</option>
+              <option>Cleaning</option>
+              <option>Landscaping</option>
+              <option>Roofing</option>
+              <option>Electrical</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group form-full">
+            <label for="message">What is your biggest challenge right now?</label>
+            <textarea id="message" name="message" placeholder="Tell us about your current sales process and where you are getting stuck..."></textarea>
           </div>
         </div>
-        <div class="contact-detail">
-          <div class="contact-detail-icon">&#128200;</div>
-          <div class="contact-detail-text">
-            <h4>Custom Growth Plan</h4>
-            <p>You will leave with a clear roadmap specific to your business and trade.</p>
-          </div>
+        <div class="form-submit">
+          <button type="submit" class="btn btn-primary btn-lg">Get My Free Growth Plan</button>
         </div>
-        <div class="contact-detail">
-          <div class="contact-detail-icon">&#10003;</div>
-          <div class="contact-detail-text">
-            <h4>No Obligation</h4>
-            <p>Zero pressure. If we are not the right fit, we will tell you honestly.</p>
-          </div>
-        </div>
-        <div class="contact-detail">
-          <div class="contact-detail-icon">&#9889;</div>
-          <div class="contact-detail-text">
-            <h4>Fast Response</h4>
-            <p>We respond to every inquiry within 24 business hours.</p>
-          </div>
-        </div>
-
-        <div style="margin-top:32px;padding:24px;background:rgba(30,144,255,0.06);border:1px solid rgba(30,144,255,0.15);border-radius:12px;">
-          <h4 style="color:#ffffff;margin-bottom:8px;">&#9733;&#9733;&#9733;&#9733;&#9733; Trusted by Home Service Owners</h4>
-          <p style="font-size:0.9rem;">&ldquo;The strategy call alone was worth it. They identified three things we could automate immediately that saved us 15 hours a week.&rdquo; &mdash; Chris M., HVAC Owner</p>
-        </div>
-      </div>
-
-      <div class="contact-form-card">
-        <h3 style="color:#ffffff;margin-bottom:8px;">Book Your Free Strategy Call</h3>
-        <p style="margin-bottom:28px;font-size:0.95rem;">Fill out the form below and we will reach out within 24 hours to schedule your call.</p>
-
-        <form data-web3form data-redirect="thank-you.html">
-          <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_KEY" />
-          <input type="hidden" name="subject" value="New Strategy Call Request - Home Service Consulting" />
-          <div class="form-grid">
-            <div class="form-group">
-              <label for="first_name">First Name *</label>
-              <input type="text" id="first_name" name="first_name" placeholder="John" required />
-            </div>
-            <div class="form-group">
-              <label for="last_name">Last Name *</label>
-              <input type="text" id="last_name" name="last_name" placeholder="Smith" required />
-            </div>
-            <div class="form-group">
-              <label for="email">Email Address *</label>
-              <input type="email" id="email" name="email" placeholder="john@yourcompany.com" required />
-            </div>
-            <div class="form-group">
-              <label for="phone">Phone Number *</label>
-              <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000" required />
-            </div>
-            <div class="form-group">
-              <label for="business_type">Business Type *</label>
-              <select id="business_type" name="business_type" required>
-                <option value="">Select your trade</option>
-                <option>HVAC</option>
-                <option>Plumbing</option>
-                <option>Cleaning</option>
-                <option>Landscaping</option>
-                <option>Roofing</option>
-                <option>Electrical</option>
-                <option>Other Home Service</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="monthly_revenue">Monthly Revenue</label>
-              <select id="monthly_revenue" name="monthly_revenue">
-                <option value="">Select a range</option>
-                <option>Under $10,000</option>
-                <option>$10,000 - $50,000</option>
-                <option>$50,000 - $100,000</option>
-                <option>Over $100,000</option>
-              </select>
-            </div>
-            <div class="form-group form-full">
-              <label for="challenge">Biggest Challenge Right Now *</label>
-              <textarea id="challenge" name="challenge" placeholder="Tell us what is holding your business back. The more detail you share, the more specific and useful our strategy call will be..." required></textarea>
-            </div>
-            <div class="form-group form-full">
-              <label for="heard">How Did You Hear About Us?</label>
-              <select id="heard" name="heard">
-                <option value="">Select an option</option>
-                <option>Google Search</option>
-                <option>Social Media</option>
-                <option>Referral from a friend</option>
-                <option>Email</option>
-                <option>LinkedIn</option>
-                <option>Other</option>
-              </select>
-            </div>
-          </div>
-          <div class="form-submit" style="margin-top:24px;">
-            <button type="submit" class="btn btn-primary btn-lg" style="width:100%;">Book My Free Strategy Call &#8594;</button>
-          </div>
-          <p style="text-align:center;font-size:0.8rem;margin-top:12px;color:#64748b;">By submitting this form you agree to be contacted by Home Service Consulting. We never share your information with third parties.</p>
-          <div class="form-message"></div>
-        </form>
-      </div>
-
+        <div class="form-message"></div>
+      </form>
     </div>
   </div>
 </section>
 
+<!-- FOOTER -->
 <footer class="footer">
   <div class="container">
     <div class="footer-inner">
       <div class="footer-brand">
-        <a href="index.html" class="nav-logo">Home Service<span> Consulting</span></a>
-        <p>AI-powered growth systems for home service businesses.</p>
+        <a href="index.html" class="nav-logo">
+          <span class="logo-icon">&#127968;</span>
+          Home Service<span> Consulting</span>
+        </a>
+        <p>AI-powered growth systems for home service businesses. We help HVAC, plumbing, cleaning, and landscaping companies scale with automation.</p>
+        <span class="veteran-tag">&#9733; Veteran Owned &amp; Operated</span>
       </div>
       <div class="footer-links">
         <h4>Services</h4>
@@ -180,12 +131,16 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Book a Call</a></li>
         </ul>
       </div>
     </div>
-    <div class="footer-bottom"><p>&copy; 2026 Home Service Consulting. All rights reserved.</p></div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Home Service Consulting. All rights reserved. | homeserviceconsulting.com</p>
+    </div>
   </div>
 </footer>
+
 <script src="script.js"></script>
 </body>
 </html>
